@@ -1,3 +1,3 @@
-site_map = xmltodict.parse(requests.get('https://pakhshjoorchin.com/product-sitemap2.xml').text)
+site_map = xmltodict.parse(requests.get('--your sitemap url--').text)
 urls = [url['loc'] for url in site_map['urlset']['url']]
 print("\n".join(urls))
