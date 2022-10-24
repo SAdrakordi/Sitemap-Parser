@@ -5,4 +5,4 @@ It's using requests to send a request to url and get the url codes than it use x
 you can use it in crowlers or webs craping or data scraping to get the all sitemap urls.
 
 you can install the xmltodict with this command :
-<sub>pip install xmltodict</sub>
+'''pip install xmltodict'''
